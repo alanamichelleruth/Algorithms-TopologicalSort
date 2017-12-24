@@ -4,7 +4,7 @@ Project for Algorithms and Data Structures-- write a list of people ordered so t
 ## Problem
 Provide a RESTful service which accepts as a POST of JSON as a list of relationships [A, B] such that A is smarter than B.  <br />Return in JSON the list sorted by smartness, with the smartest person first.
 <br />Example input: “Einstein is smarter than Feynmann”, “Feynmann is smarter than Gell-Mann”, etc.)
-<br />{ “inList” : [ { “smarter” : [ “Einstein”, “Feynmann” ] },            
+<br />{ “inList” : [ { “smarter” : [ “Einstein”, “Feynmann” ] },
 <br />	{ “smarter” : [ “Feynmann”, “Gell-Mann” ] }, 
 <br />{ “smarter” : [ “Gell-Mann”, “Thorne” ] }, 
 <br />{ “smarter” : [ “Einstein”, “Lorentz” ] }, 
