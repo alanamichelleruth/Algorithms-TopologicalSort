@@ -6,7 +6,7 @@ Provide a RESTful service which accepts as a POST of JSON as a list of relations
 <br />Return in JSON the list sorted by smartness, with the smartest person first.
 <br />Example input: “Einstein is smarter than Feynmann”, “Feynmann is smarter than Gell-Mann”, etc.)
 <br />{ “inList” : [ { “smarter” : [ “Einstein”, “Feynmann” ] },            
- 		<br />	{ “smarter” : [ “Feynmann”, “Gell-Mann” ] }, 
+<br />	{ “smarter” : [ “Feynmann”, “Gell-Mann” ] }, 
 <br />{ “smarter” : [ “Gell-Mann”, “Thorne” ] }, 
 <br />{ “smarter” : [ “Einstein”, “Lorentz” ] }, 
 <br />{ “smarter” : [ “Lorentz”, “Planck” ] }, 
@@ -15,7 +15,6 @@ Provide a RESTful service which accepts as a POST of JSON as a list of relations
 <br />Example output: 	
 <br />{ “outList” : [ “Einstein”, “Feynmann”, “Gell-Mann”, “Thorne”, “Lorentz”, “Planck”,
  		“Hilbert”, “Poincare”, “Noether” ] } 
-
 <br />Erroneous input (e.g. malformed JSON) should be handled gracefully.  
 
 ## Deliverable
